@@ -1,0 +1,453 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+/*pagina home*/
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    width: 100vw;
+}
+
+button{
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: 0;
+    background: #D33941;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    height: 100vh;
+    background: no-repeat center/cover url(https://media-exp1.licdn.com/dms/image/C4E1BAQFgDO1Vl0jdmw/company-background_10000/0/1629902705340?e=2147483647&v=beta&t=YwyWAQryadIVn57moGDekL0IYbHKEJPBphIMz5q-1Yc);
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 30px;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    padding: 0px 0px 0px 0px;
+}
+
+.btn-link{
+    text-decoration: none;
+    background-color: #D33941;
+    color: white;
+    margin: 5px;
+    border-radius: 8px;
+    height: 35px;
+}
+
+header nav ul li{
+    margin: 8px 15px;
+}
+
+.botton-navegação nav {
+    background: #e5e5e5;
+    display: flex;
+    justify-content: space-between;
+}
+
+.botton-navegação nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0 30px 0 40px;
+}
+
+.botton-navegação nav ul li {
+    margin: 8px 15px;
+}
+
+.header-content{
+    max-width: 400px; 
+    margin: 150px auto;
+    text-align: center;
+}
+
+.header-content h1{
+    margin-bottom: 10px;
+    font-size: 4rem;
+}
+
+
+
+
+
+
+
+
+
+
+/*pagina destino*/
+.pacotes {
+    background: #e5e5e5;
+    padding: 15px;
+}
+
+.pacotes .pacotes-cards {
+    display: flex;
+    margin: auto;
+    max-width: 950px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pacotes .pacotes-title {
+    width: 100%;
+    text-align: center;
+    margin: 25px 0;
+}
+
+.pacotes .card {
+    width: 250px;
+    height: 350px;
+    background: white;
+    border-radius: 24px 0px;
+    margin: 25px;
+    position: relative;
+}
+
+.pacotes .card-image {
+    width: 250px;
+    height: 200px;
+    border-radius: 24px 0 0 0;
+    object-fit: cover;
+}
+
+.pacotes .card-content {
+    padding: 0 15px;
+}
+
+.pacotes .card-content ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+}
+
+.pacotes .card-content ul li {
+    font-size: .6rem;
+    display: flex;
+    align-items: center;
+    margin: 3px 0px;
+    color: gray;
+    font-weight: bold;
+}
+
+.pacotes .card-content li svg {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.pacotes .card-content h1 {
+    font-size: 1rem;
+}
+
+.pacotes .card .card-tag-top {
+    position: absolute;
+    right: 0;
+    top: 15px;
+    background: #D33941;
+    border-radius: 8px 0 0 8px;
+    padding: 5px 10px;
+}
+
+.pacotes .card .card-tag-bottom {
+    position: absolute;
+    left: 0;
+    top: 170px;
+    background: #225596;
+    border-radius: 0 8px 8px 0;
+    padding: 5px 16px;
+}
+
+.pacotes .card .card-tag p {
+    margin: 0;
+    font-size: 0.8rem;
+    color: white;
+    font-weight: bold
+}
+
+
+
+
+
+
+
+
+
+
+/*pagina promoções*/
+.pacotespromo {
+    background: #e5e5e5;
+    padding: 15px;
+}
+
+.pacotespromo .pacotes-cards {
+    display: flex;
+    margin: auto;
+    max-width: 950px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pacotespromo .pacotes-title {
+    width: 100%;
+    text-align: center;
+    margin: 25px 0;
+}
+
+.pacotespromo .card {
+    width: 250px;
+    height: 350px;
+    background: white;
+    border-radius: 24px 0px;
+    margin: 25px;
+    position: relative;
+}
+
+.pacotespromo .card-image {
+    width: 250px;
+    height: 200px;
+    border-radius: 24px 0 0 0;
+    object-fit: cover;
+}
+
+.pacotespromo .card-content {
+    padding: 0 15px;
+}
+
+.pacotespromo .card-content ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+}
+
+.pacotespromo .card-content ul li {
+    font-size: .6rem;
+    display: flex;
+    align-items: center;
+    margin: 3px 0px;
+    color: gray;
+    font-weight: bold;
+}
+
+.pacotespromo .card-content li svg {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.pacotespromo .card-content h1 {
+    font-size: 1rem;
+}
+
+.pacotespromo .card .card-tag-top {
+    position: absolute;
+    right: 0;
+    top: 15px;
+    background:#D33941;
+    border-radius: 8px 0 0 8px;
+    padding: 5px 10px;
+}
+
+.pacotespromo .card .card-tag-bottom {
+    position: absolute;
+    left: 0;
+    top: 170px;
+    background: #225596;
+    border-radius: 0 8px 8px 0;
+    padding: 5px 16px;
+}
+
+.pacotespromo .card .card-tag p {
+    margin: 0;
+    font-size: 0.8rem;
+    color: white;
+    font-weight: bold
+}
+
+
+
+
+
+
+
+
+
+
+
+/*pagina serviço*/
+.serviços {
+    background-color: #c7c7c7;
+    padding: 15px;
+}
+
+.serviços .serviços-title{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.serviços .serviços-cards {
+    padding-top: 10px;
+    display: flex;
+    max-width: 950px;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.serviços .card{
+    width: 250px;
+    margin: 0 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.serviços .card svg {
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+    transition: all 1s;
+}
+
+.serviços .card svg:hover {
+    stroke: gray;
+    transform: scale(1.2);
+}
+
+.serviços .card h3{
+    font-weight: bold;
+}
+
+.serviços .card p{
+    color: #225596;
+    font-size: .8rem;
+    text-align: center;
+}
+
+.serviços .card-content {
+    height: 180px;
+    text-align: center;
+
+}
+
+.serviços button {
+    background: #225596;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*parte contato*/
+
+html{
+    background: #eceaea;
+}
+
+.contatofinal ul {
+    list-style: none;
+    margin: 10px;
+    padding: 0px;
+}
+
+.contatofinal ul li{
+    margin: 0px;
+}
+
+.contatofinal h1{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*para tablet*/
+@media(max-width: 767px) {
+
+}
+
+
+
+
+/*para celular*/
+@media(max-width: 480px) {
+    body{
+        margin-bottom: 55px;
+    }
+
+    .botton-navegação nav ul li {
+        margin: 8px 10px;
+    }
+
+    .botton-navegação nav ul{
+        position: fixed;
+        bottom:0%;
+        left: 0%;
+        width: 100%;
+        padding: 0%;
+
+        z-index: 99;
+
+        background: #D33941;
+        height: 55px;
+        margin: 0;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .btn-link{
+            text-decoration: none;
+            background-color: #D33941;
+            color: white;
+            margin: 1px;
+            border-radius: 8px;
+            height: 35px;
+    }
+
+    html{
+        background: #eceaea;
+    }
+    
+    .contatofinal ul {
+        list-style: none;
+        margin: 5px;
+        padding: 0px;
+    }
+    
+    .contatofinal ul li{
+        margin: 0px;
+    }
+}
+
